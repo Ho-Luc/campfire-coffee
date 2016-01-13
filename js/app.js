@@ -37,10 +37,10 @@ function CoffeeStores(name, minHr, maxHr, cupsPerCust, poundsPerCust) {
       tdEl.textContent = this.time[i];
       tblEl.appendChild(tdEl);
       }
-    trEl.textContent = 'Lbs Sold/Hr';
+    trEl.textContent = 'Lbs + cups/Hr';
     for (var j = 0; j < this.time.length; j++) {
       var tdEl = document.createElement('td');
-      tdEl.textContent = this.hourlyLbSold[j].toFixed(1);
+      tdEl.textContent = this.hourlyCupConversionPlusLb[j].toFixed(1);
       trEl.appendChild(tdEl);
     }
     var trEl2 = document.createElement('tr');
