@@ -9,7 +9,10 @@ table {
 }
 aside {
   background-color: #EBA765;
+  border: 5px solid;
+  border-color: #4c331a;
   padding-left: 10px;
+  padding-top: 2px;
   width: 190px;
   height: 400px;
 }
@@ -21,6 +24,7 @@ td {
   padding: 10px;
 }
 header {
+  padding: 3px;
   align-self: 500px;
   text-align: center;
   font-size: 200%;
@@ -32,5 +36,5 @@ header {
 }
 article {
   width: 500px;
+  padding: 2px;
 }
-.
